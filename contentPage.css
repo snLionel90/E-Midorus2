@@ -1,0 +1,134 @@
+
+/*Seccion Principal*/
+:root{
+    --rojo: #E50914;
+    --fondo: #141414;
+    --fondo2: #0b2399;
+}
+body{
+    background: #200010;
+    font: 14px "Open Sans", "Arial", sans-serif;
+}
+video {
+    margin-left: 4px;
+    margin-top: :3px;
+    border:2px solid black;
+}
+
+h2 {
+    margin-bottom: 4px;
+}
+
+/* los botones*/
+.button{
+    cursor: pointer;
+    width: 370px;
+    border: solid black 1px;
+    font-size: 15px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    color: white;
+    background-color: darkred;
+    text-decoration: none;
+}
+/* tol bloke*/
+.reks{
+    display: grid;
+    margin-right: : 10px;
+    width: 380px;
+    padding: 4px;
+}
+.reks > select{
+    
+    border-radius: 1px;
+    background-color: aliceblue;
+    float: center;
+
+}
+.reks > label{
+    color: cornsilk;
+   font-size: 20px;
+}
+.bottom{
+    clear: both;
+    padding-top: 10px;
+}
+/*Axterismo*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER O CABECERA*/
+.container{
+    align-items: center;
+    font-size: large;
+    display: flex;
+    color: rosybrown;  
+    size: 200px 200px; 
+}
+
+.flags{
+    width: auto;
+    margin: auto;
+}
+.logo2{
+    margin-left: 100px;
+    position: absolute;
+}
+.logo3{
+    margin-left: 150px;
+    position: absolute;
+}
+.logo4{
+    margin-left: 200px;
+    position: absolute;
+}
+/*MI LOGOTIPO*/
+.logo1 {
+    background-color: tomato;
+    height: 50px;
+    width: 20px;
+    position: absolute;
+}
+.logo1::before {
+    background-color: tomato;
+    height: 50px;
+    width: 20px;
+    position: absolute;
+    content: '';
+    left: 70px;
+}
+.logon {
+    position: absolute;
+    height: 50px;
+    width: 20px;
+    background: #e50913;
+    left: 36px;
+    transform: skew(-32deg);
+}
+/*navegacion en la cabecera*/
+header{
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header nav a {
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 21px;
+}
+
+header nav a:hover,
+header nav a.active{
+    color: rgb(133, 165, 253);
+}

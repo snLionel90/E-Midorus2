@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      E-Midorious Grabacion de video, Soporte de grabacion de video WEB
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale-1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge-opera-chrome" />
+    <link rel="stylesheet" type="text/css" href="contentPage.css" />
+    <script src="script.js"></script>
+
+    <script id="wpcp_disable_Right_Click" type="text/javascript">
+      document.ondragstart = function () {
+        return false;
+      };
+      function nocontext(e) {
+        return false;
+      }
+      document.oncontextmenu = nocontext;
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <div class="flags">
+        <div class="logo1"><span class="logon"></span></div>
+        <div class="logo2">
+          <img src="./icons/EU-European-Union-Flag-icon.png" alt="X" />
+        </div>
+        <div class="logo3">
+          <img src="./icons/ES-Spain-Flag-icon.png" alt="X" />
+        </div>
+        <div class="logo4"><img src="./icons/logoSn.png" alt="X" /></div>
+      </div>
+      <div class="container">
+        <br />
+        <nav>
+          <h2>
+            Grabacion de video a traves de wecam y microfono (c) Sn.Lionel90
+          </h2>
+          <a href="#" class="active">Principal</a>
+          <a href="#" class="active">Grabaciones</a>
+          <a href="#" class="active">Aviso Legal</a>
+          <a
+            href="https://github.com/snLionel90?tab=repositories"
+            class="active"
+            >Mas Proyectos</a
+          >
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="reks">
+        <label for="dispositivosDeAudio">Micrófono:</label><br />
+        <select name="dispositivosDeAudio" id="dispositivosDeAudio"></select>
+        <br /><br />
+        <label for="dispositivosDeVideo">Cámara:</label><br />
+        <select name="dispositivosDeVideo" id="dispositivosDeVideo"></select>
+        <br /><br />
+        <video muted="muted" id="video"></video>
+        <br /><br />
+        <p id="duracion"></p>
+        <br />
+        <button class="button" id="btnComenzarGrabacion">Comenzar</button>
+        <button class="button" id="btnDetenerGrabacion">Detener</button>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
