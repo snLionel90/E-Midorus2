@@ -38,12 +38,10 @@ h2 {
     width: 380px;
     padding: 4px;
 }
-.reks > select{
-    
-    border-radius: 1px;
-    background-color: aliceblue;
-    float: center;
-
+select {
+    background-color:darkgrey;
+    color: indigo;
+    font-size: 14px;
 }
 .reks > label{
     color: cornsilk;
